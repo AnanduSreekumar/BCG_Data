@@ -1,9 +1,6 @@
 #Initiatl version created by Anandu Sreekumar - 12th July, 2021
 #created for BCG 
 # Read pdf for instruction
-import findspark
-findspark.init()
-findspark.find()
 import pyspark
 import os.path
 import json
