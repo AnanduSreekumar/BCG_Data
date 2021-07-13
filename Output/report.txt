@@ -1,0 +1,61 @@
+Analysis Report BCG - Candidate Anandu
+File : Charges_use
+File count: 116110
+File : Damages_use
+File count: 24950
+File : Endorse_use
+File count: 159818
+File : Primary_Person_use
+File count: 156954
+File : Restrict_use
+File count: 159852
+File : Units_use
+File count: 173499
+
+Analysis 1:
+Q:Find the number of crashes (accidents) in which number of persons killed are male? 
+Answer:
+number of male killed in crashes: 182
+
+Analysis 2:
+Q:How many two wheelers are booked for crashes? 
+Total 2 wheeler crashes count:911
+Distinct 2 wheeler crashes count (based on VIN):745
+
+Analysis 3:
+Q:Which state has highest number of accidents in which females are involved?  
+Answer:
+State : Texas
+
+Analysis 4:
+Q:Which are the Top 5th to 15th VEH_MAKE_IDs that contribute to a largest number of injuries including death 
+Answer:
+ Top 5th to 15th VEH_MAKE_IDs : NISSAN,HONDA,GMC,HYUNDAI,KIA,JEEP,CHRYSLER,MAZDA,VOLKSWAGEN,PONTIAC, LEXUS
+
+Analysis 5:
+Q:For all the body styles involved in crashes, mention the top ethnic user group of each unique body style  
+Answer:
+For body BUS style max occurance in BLACK ethinicity.
+For body PASSENGER CAR, 4-DOOR style max occurance in WHITE ethinicity.
+For body FIRE TRUCK style max occurance in WHITE ethinic
+For body VAN style max occurance in WHITE ethinicity.
+For body PICKUP style max occurance in WHITE ethinicity.
+For body SPORT UTILITY VEHICLE style max occurance in WHITE ethinicity.
+For body FIRE TRUCK style max occurance in WHITE ethinicity.
+For body TRUCK style max occurance in WHITE ethinicity.
+
+Analysis 6:
+Q:Among the crashed cars, what are the Top 5 Zip Codes with highest number crashes with alcohols as the contributing factor to a crash (Use Driver Zip Code) 
+Answer:
+Top 5 Zip Codes : ['78521', '76010', '79936', '79938', '78741']
+
+Analysis 7:
+Q:Count of Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) is above 4 and car avails Insurance
+Answer:
+count 6138
+
+Analysis 8:
+Q:Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data)
+Answer:
+Top 5 Vehicle Makes : ['FORD', 'CHEVROLET', 'TOYOTA', 'DODGE', 'HONDA']
+
